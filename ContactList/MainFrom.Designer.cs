@@ -1,6 +1,6 @@
 ﻿namespace ContactList
 {
-    partial class Form1
+    partial class MainFrom
     {
         /// <summary>
         /// Required designer variable.
@@ -50,15 +50,16 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "thêm liên hệ ";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // MainFrom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "MainFrom";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
