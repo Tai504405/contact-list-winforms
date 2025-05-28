@@ -24,9 +24,6 @@ namespace ContactList
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AddContactForm addForm = new AddContactForm();
-            this.Hide(); // Ẩn form hiện tại
-            addForm.ShowDialog();
         }
     }
 }
